@@ -21,7 +21,7 @@ Nome |   Descrição
 
 ## Screenshots ou gif 
 
-![Projeto-login](https://github.com/emmanuelmarcosdeoliveira/projeto-login/blob/main/imagens/tela-login.gif)
+![Projeto-login](/)
 
 ## Demonstração
 
