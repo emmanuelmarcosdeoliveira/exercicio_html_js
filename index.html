@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,24 @@
   <title>Verificador de numeros</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <h1>EBAC - Exercício Javascript Modulo 07</h1>
   <main>
+    <h3>Comparador de Numeros</h3>
     <div class="container">
+      <form id="compare-number">
+        <label for="numero-A">numero-A</label><br>
+        <input type="number" id="numero-A" required placeholder="1234... " Digite 1° valor maxlength="10"> <br>
+        <label for="numero-B">numero-B</label> <br>
+        <input type="number" id="numero-B" required placeholder=" 1234..." Digite o 2° valor> <br>
+        <button class="button-btn" id="verifiq">VERIFICAR</button>
+        <span id="verificado">Número verificado e validado.</span>
+        <span id="error">O numero B tem que ser maior que numero A</span>
+      </form>
     </div>
-    <form id="compare-number">
-      <h3>Comparador de Numeros</h3>
-      <label for="numero-A">numero-A</label><br>
-      <input type="number" id="numero-A" required placeholder="1234... " Digite 1° valor maxlength="10"> <br>
-      <label for="numero-B">numero-B</label> <br> 
-      <input type="number" id="numero-B" required placeholder=" 1234..." Digite o 2° valor> <br>
-      <button class="button-btn" id="verifiq">VERIFICAR</button> 
-    </form>
   </main>
+  <script src="script.js"></script>
 </body>
+
 </html>
