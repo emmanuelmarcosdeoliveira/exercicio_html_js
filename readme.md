@@ -43,4 +43,4 @@ Para fazer o deploy desse projeto rode
 
 ## Referência
 
-- [EBAC](https://www.estudonauta.com/)
+- [EBAC](https://ebaconline.com.br/)
