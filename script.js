@@ -13,8 +13,8 @@ form.addEventListener("submit", function (e) {
   let validarForm = verificaNumero(opcao1.valueAsNumber, opcao2.valueAsNumber);
   if (validarForm) {
     correto.style.display = "block";
-    opcao1.value = " ";
-    opcao2.value = " ";
+    opcao1.value = "";
+    opcao2.value = "";
   }
 });
 opcao2.addEventListener("keyup", function (e) {
